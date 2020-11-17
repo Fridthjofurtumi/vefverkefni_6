@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 150%;
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+.titill{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.efri_hluti{
+    height: 100vh;
+    background: turquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nedri_hluti{
+    height: 100vh;
+    background: linear-gradient(turquoise,blue);
+}
+
+.hringur{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: radial-gradient(purple,brown);
+}
+
+.midja{
+    width: 70%;
+    margin: 0 auto;
+}
+.midja a{
+    text-decoration: none;
+    color: turquoise;
+}
+.tveir_dalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 24px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.fjorir_dalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 100px;
+    font-family: 'wingdings';
+}
